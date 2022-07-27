@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: 0px solid red;
+}
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+body {
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+}
+#aboutus,
+#portfolio,
+#team,
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 3rem;
+}
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* HEADER */
+header {
+    /* Photo by ben o'bro on Unsplash */
+    background-image: url("/images/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
+    background-position: center;
+    font-size: 1.5rem;
+    text-align: center;
+    min-height: 20rem;
+    margin-bottom: 4rem;
+    margin-top: 0rem;
+    color: white;
+}
+header h1 {
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+    padding-top: 7rem;
+}
+header h2 {
+    margin-top: -1.5rem;
+    font-size: 1.5rem;
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
+}
+#navbar a {
+    color: white;
+    background-color: gray;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem 2rem 0rem 2rem;
+    cursor: pointer;
+}
+/* ABOUT US */
+#aboutus {
+
+}
+
+/* PORTFOLIO */
+#portfolio {
+
+}
+
+/* TEAM */
+#team {
+
+}
+/* FOOTER */
+footer {
+    background-color: lightgray;
+    font-size: 1rem;
+    max-width: 20%;
+    padding: 0rem;
+}

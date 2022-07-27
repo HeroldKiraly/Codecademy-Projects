@@ -1,0 +1,158 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    background-color: black;
+    margin: 0;
+}
+body {
+    font-family: Helvetica, 'sans-serif';
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    background-color: inherit;
+    margin: 0;
+    margin-top: 69px;
+}
+/* HEADER START */
+header {
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+header img {
+    height: 50px;
+    margin: 9.5px 0px 9.5px 10px;
+}
+header ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 10px;
+}
+header li {
+    text-decoration: underline;
+    display: inline;
+    padding-left: 30px;
+}
+header a {
+    text-decoration: inherit;
+    color: inherit;
+}
+header a:hover {
+    color: darkgray;
+}
+/* HEADER END */
+/* MISSION SECTION START */
+.mission {
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
+}
+.mission img {
+    top: 69px;
+}
+.mission-text {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.mission-label h2 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.mission-label h4 {
+    margin-bottom: 10px;
+}
+/* MISSION SECTION END */
+/* TEA OF THE MONTH SECTION START */
+.tea-month {
+    max-width: 1000px;
+    display: inline-block;
+    text-align: center;
+}
+.tea-month-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea-month-content div {
+    margin: 0 15px;
+}
+.tea-month-content div h4 {
+    margin-top: 10px;
+}
+.tea-month img {
+    height: 200px;
+    width: 300px;
+}
+/* TEA OF THE MONTH SECTION END */
+/* LOCATIONS SECTION START */
+.locations {
+    display: inline-block;
+    max-height: 550px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.locations-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.text h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.text-boxes {
+    display: flex;
+    flex-direction: row;
+}
+.locations-content-downtown,
+.locations-content-eastbayside,
+.locations-content-oakdale {
+    background-color: black;
+    opacity: 1;
+    margin: 0px 20px 0 20px;
+    width: 300px;
+}
+.text-boxes h3,
+.text-boxes p {
+    padding: 10px 0;
+    margin: 15px;
+}
+/* LOCATIONS SECTION END */
+/* CONTACT START */
+.contact {
+    display: inline-block;
+    width: 1200px;
+    height: 200px;
+}
+/* CONTACT END */
+/* FOOTER START */
+footer {
+    display: flex;
+    text-align: flex-start;
+    margin-left: 20px;
+}
+/* FOOTER END */
